@@ -1,0 +1,29 @@
+@media screen and (max-width:1200px){
+    #welcome{
+        font-size:auto;
+    }
+    h1{
+        font-size:20px;
+    }
+    #links{
+        font-size:14px;
+    }
+    #containers{
+        grid-template-columns:repeat(2,auto);
+        grid-template-rows: repeat(2,auto);
+    }
+}
+@media screen and (max-width:600px){
+    #containers{
+        grid-template-columns: repeat(1,auto);
+        grid-template-rows: repeat(6,auto);
+    }
+    #register{
+        grid-template-columns: repeat(1,auto);
+        grid-template-rows: repeat(1,auto);
+        
+    }
+    #register-form{
+        margin:0 auto;
+    }
+}
