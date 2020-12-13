@@ -96,6 +96,29 @@ color:#f44292;
 }
 #contact-info{
     text-align:center;
+    border: 2px solid white;
+    letter-spacing: 1.5px;
+    font-size:18px;
+    background: white;
+    border-radius: 8px 8px 8px 8px;
+    color: #02203c;
+}
+.place{
+    padding:1em 1em 1em 1em;
+    border:3px solid whitesmoke;
+    border-radius: 7px 7px 7px 7px;
+    font-family: monospace;
+}
+#but-form{
+    outline: none;
+    border:2px solid #02203c;
+    background: transparent;
+    padding:1.0em 3em 1.0em 3em;
+    border-radius: 30px 30px 30px 30px;
+}
+#but-form:hover{
+    background: #02203c;
+    color:whitesmoke;
 }
 #sub-form{
     border:2px solid whitesmoke;
@@ -103,7 +126,7 @@ color:#f44292;
     background: transparent;
     color:whitesmoke;
     border-radius: 28px 28px 28px 28px;
-    display: inline-block;
+    outline:none;
 }
 #social-media{
     display: flex;
