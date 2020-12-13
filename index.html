@@ -125,45 +125,27 @@
          
     </div>
 </div>
+ 
+<div id = "register-page">
+    <span id = "register-welcome">
+    <h2 id="welc">Welcome Back!</h2>
+    To keep connected with us please login<br>
+    with your personal info<br><br>
+    <input type="submit" id="sub-form" formmethod="GET" placeholder="Sign in">
+    </span>
 
-
-<div id = "register">
-  <p id = "register-forme">
-    We carefully design real-world examples
-     & exercises that will truly prepare you for jobs and technical interviews.
-     We’re full-on obsessive about the quality of our videos 
-     to create the best possible learning experience for you across ALL devices.
-  </p>
-<form id = "register-form" method="POST" name = "contact" data-netlify="true">
-    <span id = "names">
-        <input placeholder = "First Name" type = "text" id = "Place-holder" name = "First Name"required>*
-        <input placeholder = "Last Name" type = "text" id = "Place-holder" name = "Last Name"required>*
-    </span><br><br>
-    <span id = "mobile">
-        <select id = "countrycode" required>
-            <option value = "+254">+254</option>
-            <option value = +231>+231</option>
-            <option value="+1">+154</option>
-            <option value="+1">+178</option>
-            <option value="+1">+123</option>
-        </select>
-        <input type = "number" placeholder="Phone Number" id = "Place-holder" name = "Phone Number"required>*
-    </span><br><br>
-<span id = "Email">
-    <input placeholder = "Email Adress" type = "email" id = "Place-holder" name = "Email adress"required>*
-    <input placeholder = "Secondary Email Adress" type = "email" id = "Place-holder" name = "Secondary email"><br><br>
-</span>
-<textarea id = "message" name = "comments">Comments...
-
-</textarea><br><br>
-<span id="checkbox">
-    <input type = "checkbox" name = "Accepted The terms" value = "checkbox" required>You have fully read and understood Our terms and conditions<br><br>
-</span>
-
-<input type = "submit" formmethod="POST" value = "Register" id = "button-three"><br><br>
-
-</form>
+    <span id = "contact-info">
+        <h2 id="welc">Create an account</h2>
+        use your email for registration<br><br>
+        <form id="post-message" method="POST">
+        <input type="text" placeholder="Name" required><br><br>
+        <input type="email" placeholder="Email"required><br><br>
+        <input type="password" placeholder="Password"required><br><br>
+        <input type="submit" placeholder="Sign Up" id="but-form">
+        </form> 
+    </span>
 </div>
+
 <p id = "last-head">Follow us on our Social media platform</p>
 <footer id = "social-media">
     <a href="https://www.facebook.com" rel = "noopener noreferrer" target="_blank"><img src = "Icons/facebook.png" width = "35" height = "40"> </a>
@@ -179,4 +161,5 @@
         &copy;Code with Ryan 2020.All rights reserved
     </p>
 </body>
+<script src="index.js"></script>
 </html>
