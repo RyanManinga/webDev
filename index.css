@@ -128,6 +128,10 @@ color:#f44292;
     border-radius: 28px 28px 28px 28px;
     outline:none;
 }
+#sub-form:hover{
+    background: white;
+    color:#02203c;
+}
 #social-media{
     display: flex;
     flex-direction: row;
