@@ -1,9 +1,12 @@
 const express = require('express');
-const homeRoute = require('./routes/home')
+const morgan = require('morgan');
+const homeRoutes = require('../routes/home');
 
 const app = express();
 
 app.use(express.json());
-app.use('/', homeRoute);
+app.use(morgan('tiny'));
+app.use('/', homeRoutes);
+
 
 module.exports = app;
